@@ -1,3 +1,5 @@
+import Head from 'next/head'
+
 import { useState } from 'react'
 import { Products } from '../../public/navItems'
 export { Products, Pricing } from '../../public/navItems'
@@ -12,6 +14,11 @@ export default function Header_New() {
   }
   return (
     <>
+      <Head>
+        <title>Kids Hub - Child Care Management Software</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
       <div className="relative border-b-2 border-gray-100">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-3 md:justify-start md:space-x-10">
