@@ -9,31 +9,41 @@ import screenshotExpenses from '@/images/screenshots/expenses.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import Automated_Billing from '../../public/images/automated-billing.jpg';
+import Attendance from '../../public/images/attendance.jpg';
+import Parent_Engagement from '../../public/images/parent-engagement.jpg';
+import Room_Ratio from '../../public/images/room-ratio.jpg';
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Online Payments',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+      "Enable your parents to enroll in Auto Pay so that you get paid on-time every time.",
+    image: Automated_Billing,
   },
   {
-    title: 'Claim expenses',
+    title: 'Digitized Attendance',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      "Say goodbye to paper. Kids Hub supports a variety of efficient attendance flows. With our mobile app, you can manage attendance on the go.",
+    image: Attendance,
   },
   {
-    title: 'VAT handling',
+    title: 'Automated Billing',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      "Kids Hub enables you to build automated billing plans which can be assigned to students. Say goodbye to manually maintaing billing plans.",
+    image: Automated_Billing,
   },
   {
-    title: 'Reporting',
+    title: 'Parent Engagement',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Stay in touch with your parents with Messaging / Activities.',
+    image: Parent_Engagement,
+  },
+  {
+    title: 'Childcare Management',
+    description:
+      'Online Forms, Schedules - Kids Hub has you covered. Centralize all of your data and process in one easy to use platform.',
+    image: Room_Ratio,
   },
 ]
 
@@ -77,12 +87,9 @@ export function PrimaryFeatures() {
             id="features-title"
             className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl"
           >
-            Everything you need to run your books.
+           One Integrated Daycare & Childcare Software System That Meets All Of Your Need.
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
-          </p>
+         
         </div>
         <Tab.Group
           as="div"

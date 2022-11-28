@@ -17,7 +17,7 @@ export function Hero() {
   return (
     <Container className="pt-20 pb-16 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl">
-      Meet Marqly, Manage your bookmarks{' '}<span className="relative whitespace-nowrap text-blue-600">
+        Meet Marqly, Manage your bookmarks{' '}<span className="relative whitespace-nowrap text-blue-600">
           <svg
             aria-hidden="true"
             viewBox="0 0 418 42"
@@ -28,21 +28,21 @@ export function Hero() {
           </svg>
           <span className="relative">like a pro.</span>
         </span>{' '}
-       
+
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-      Easy-to-use, Marqly lets you save, customize and manage all your bookmarks and texts online like a breeze.
+        Easy-to-use, Marqly lets you save, customize and manage all your bookmarks and texts online like a breeze.
       </p>
       <div className="mt-10 flex justify-center space-x-6">
         <ButtonLink href="/register"> Install Extension - It's free </ButtonLink>
-       
+
       </div>
       <div className="mt-16 bg-slate-100 height-400">
-    
-                    </div>
-             
 
-    
+      </div>
+
+
+
     </Container>
   )
 }
